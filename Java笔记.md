@@ -12,7 +12,7 @@ intValue()是把Integer对象类型变成int的基础数据类型;
 
  - `String str = String.valueOf(int);`
  - `String str = Integer.toString(int);`
- - `String s = "" + int;`
+ - `String str = "" + int;`
 
 ## 字符串与数组相互转换
 ### 数组转换为字符串
@@ -42,7 +42,7 @@ intValue()是把Integer对象类型变成int的基础数据类型;
 ### 字符串去空格
 常用空白字符：空格(' ') 、换页 ('\f') 、换行('\n')、回车('\r')、水平制表符 ('\t')、垂直制表符 ('\v')
 
- - `String.trim()`
- - `String.replaceAll(" ","");`
- - `String.replacaAll("\\s*","");`
+ - `String str = str.trim()`
+ - `String str = str.replaceAll(" ", "");`
+ - `String str = str.replacaAll("\\s*", "");`
 
