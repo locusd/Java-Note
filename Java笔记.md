@@ -10,7 +10,7 @@ intValue()是把Integer对象类型变成int的基础数据类型;
 ## 整型转换为字符串
 
  - `String str = String.valueOf(int);`
- - `String str = String.toString(int);`
+ - `String str = Integer.toString(int);`
  - `String s = "" + int;`
 
 ## 数组转换为字符串
