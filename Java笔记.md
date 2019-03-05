@@ -6,6 +6,7 @@
 parseInt()是把String变成int的基础数据类型;
 valueOf()是把给定的String参数转化成Integer对象类型;
 intValue()是把Integer对象类型变成int的基础数据类型;
+
 ## 字符串转换为整型
 
  - `String str = String.valueOf(int);`
@@ -37,7 +38,7 @@ intValue()是把Integer对象类型变成int的基础数据类型;
     System.out.println(new StringBuilder(str).reverse().toString());
 ### 字符串去空格
 #### 常用空白字符：
-空格(' ') 、换页 ('\f') 、换 行('\n')、回车('\r')、水平制表符 ('\t')、垂直制表符 ('\v')
+空格(' ') 、换页 ('\f') 、换行('\n')、回车('\r')、水平制表符 ('\t')、垂直制表符 ('\v')
 
  - `String.trim()`
  - `String.replaceAll(" ","");`
