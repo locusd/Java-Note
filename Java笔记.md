@@ -12,7 +12,7 @@ intValue()是把Integer对象类型变成int的基础数据类型;
  - `String str = String.toString(int);`
  - `String s = "" + int;`
 
-## 数组转换为字符串##
+## 数组转换为字符串
 ### char数组转换为字符串
     char[] charArray = {'a','b','c'};
     String str = String.copyValueOf(charArray);
