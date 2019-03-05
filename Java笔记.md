@@ -1,5 +1,4 @@
 # Java笔记
----
 ## 整型转换为字符串
  - `int i = Integer.parseInt(String);`
  - `int i = Integer.valueOf(String).intValue();`
@@ -13,7 +12,6 @@ intValue()是把Integer对象类型变成int的基础数据类型;
  - `String str = String.toString(int);`
  - `String s = "" + int;`
 
----
 ## 数组转换为字符串##
 ### char数组转换为字符串
     char[] charArray = {'a','b','c'};
