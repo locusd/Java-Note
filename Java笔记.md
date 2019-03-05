@@ -1,5 +1,5 @@
 # Java笔记
-## 整型转换为字符串
+## 字符串转换为整型
  - `int i = Integer.parseInt(String);`
  - `int i = Integer.valueOf(String).intValue();`
 
@@ -7,7 +7,7 @@ parseInt()是把String变成int的基础数据类型;
 valueOf()是把给定的String参数转化成Integer对象类型;
 intValue()是把Integer对象类型变成int的基础数据类型;
 
-## 字符串转换为整型
+## 整型转换为字符串
 
  - `String str = String.valueOf(int);`
  - `String str = String.toString(int);`
